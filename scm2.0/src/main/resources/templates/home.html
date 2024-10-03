@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+         margin:auto;
+         width:50%;
+         background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 data-th-text="${name}">Welcome to home page!!</h1>
+        <p>Company name: <span data-th-text="${companyName}"></span></p>
+        <p>GitHub Link: <span data-th-text="${githubLink}"></span></p>
+        <a th:href="${githubLink}">Click here to open link</a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asperiores sapiente at laudantium id maxime in suscipit architecto repellat earum culpa explicabo doloribus odio dolorem, consequuntur impedit tempore. Ratione, amet!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ad. Repudiandae fuga incidunt laborum rem cum? Quis facilis, minima, temporibus ipsam voluptatibus doloribus autem laboriosam harum praesentium deleniti eius voluptas?</p>
+    </div>
+</body>
+</html>
